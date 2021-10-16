@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		       features="C:\\Users\\z00467ka\\eclipse-workspace\\FreeCrmBDDFramework\\src\\main\\java\\Features\\dealsmap.feature",
 		       glue={"stepDefinations"},
 		       plugin = {"pretty","html:test-output"},
-		       //format={"pretty","html:test-output"}, deprecated not in use anymore in cucumber
+		       //format={"pretty","html:test-output"}, deprecated not in use anymore in cucumber BBD
 		       monochrome=true,
 		       //monochrome=false,
 		       strict=false,
