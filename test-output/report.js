@@ -1,61 +1,207 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/z00467ka/eclipse-workspace/FreeCrmBDDFramework/src/main/java/Features/tagging.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/z00467ka/eclipse-workspace/FreeCrmBDDFramework/src/main/java/Features/taggedhooks.feature");
 formatter.feature({
   "line": 1,
-  "name": "Free Crm application testing",
+  "name": "Test tagged hooks",
   "description": "",
-  "id": "free-crm-application-testing",
+  "id": "test-tagged-hooks",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "line": 8,
-  "name": "login with incorrect username and correct password",
-  "description": "",
-  "id": "free-crm-application-testing;login-with-incorrect-username-and-correct-password",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 7,
-      "name": "@RegressionTest"
-    }
-  ]
+formatter.before({
+  "duration": 113900,
+  "status": "passed"
 });
-formatter.step({
-  "line": 9,
-  "name": "This is a invalid login test",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "TaggingStepDefination.this_is_a_invalid_login_test()"
-});
-formatter.result({
-  "duration": 68484600,
+formatter.before({
+  "duration": 67400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 20,
-  "name": "Create a tasks",
+  "line": 4,
+  "name": "This is the first test",
   "description": "",
-  "id": "free-crm-application-testing;create-a-tasks",
+  "id": "test-tagged-hooks;this-is-the-first-test",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 19,
-      "name": "@RegressionTest"
+      "line": 3,
+      "name": "@First"
     }
   ]
 });
 formatter.step({
-  "line": 21,
-  "name": "TThis is a tasks test case",
+  "line": 5,
+  "name": "This the first step",
   "keyword": "Given "
 });
+formatter.step({
+  "line": 6,
+  "name": "This is the second step",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "This is the thirt step",
+  "keyword": "Then "
+});
 formatter.match({
-  "location": "TaggingStepDefination.tthis_is_a_tasks_test_case()"
+  "location": "taggedHooksStepDefinations.this_the_first_step()"
 });
 formatter.result({
-  "duration": 19500,
+  "duration": 71502300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedHooksStepDefinations.this_is_the_second_step()"
+});
+formatter.result({
+  "duration": 41000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedHooksStepDefinations.this_is_the_thirt_step()"
+});
+formatter.result({
+  "duration": 34400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 34400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 32700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 89300,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 49500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 10,
+  "name": "This is the Second test",
+  "description": "",
+  "id": "test-tagged-hooks;this-is-the-second-test",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 9,
+      "name": "@Second"
+    }
+  ]
+});
+formatter.step({
+  "line": 11,
+  "name": "This the first step",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 12,
+  "name": "This is the second step",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "This is the thirt step",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "taggedHooksStepDefinations.this_the_first_step()"
+});
+formatter.result({
+  "duration": 47000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedHooksStepDefinations.this_is_the_second_step()"
+});
+formatter.result({
+  "duration": 51100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedHooksStepDefinations.this_is_the_thirt_step()"
+});
+formatter.result({
+  "duration": 41100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 30700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 35300,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 47000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 56800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "This is the Third test",
+  "description": "",
+  "id": "test-tagged-hooks;this-is-the-third-test",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 16,
+      "name": "@Third"
+    }
+  ]
+});
+formatter.step({
+  "line": 18,
+  "name": "This the first step",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "This is the second step",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "This is the thirt step",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "taggedHooksStepDefinations.this_the_first_step()"
+});
+formatter.result({
+  "duration": 35800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedHooksStepDefinations.this_is_the_second_step()"
+});
+formatter.result({
+  "duration": 28700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedHooksStepDefinations.this_is_the_thirt_step()"
+});
+formatter.result({
+  "duration": 31900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 27200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 44200,
   "status": "passed"
 });
 });
