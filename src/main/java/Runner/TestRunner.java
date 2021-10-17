@@ -10,15 +10,20 @@ import cucumber.api.junit.Cucumber;
 		       //features="C:\\Users\\z00467ka\\eclipse-workspace\\FreeCrmBDDFramework\\src\\main\\java\\Features",
 		       //features="C:\\Users\\z00467ka\\eclipse-workspace\\FreeCrmBDDFramework\\src\\main\\java\\Features\\contacts.feature",
 		       //features="C:\\Users\\z00467ka\\eclipse-workspace\\FreeCrmBDDFramework\\src\\main\\java\\Features\\deals.feature",
-		       features="C:\\Users\\z00467ka\\eclipse-workspace\\FreeCrmBDDFramework\\src\\main\\java\\Features\\dealsmap.feature",
+		       //features="C:\\Users\\z00467ka\\eclipse-workspace\\FreeCrmBDDFramework\\src\\main\\java\\Features\\dealsmap.feature",
+		       features="C:\\Users\\z00467ka\\eclipse-workspace\\FreeCrmBDDFramework\\src\\main\\java\\Features\\tagging.feature",
 		       glue={"stepDefinations"},
 		       plugin = {"pretty","html:test-output"},
 		       //format={"pretty","html:test-output"}, deprecated not in use anymore in cucumber BBD
 		       monochrome=true,
 		       //monochrome=false,
-		       strict=false,
-		       dryRun=false
-		       //dryRun=true;
+		       strict=true,
+		       dryRun=false,
+		       //tags= {"@SmokeTest"}
+		       //tags= {"@SmokeTest,@RegressionTest"} // OR
+		       //tags= {"@SmokeTest","@RegressionTest"}//AND
+		      //tags={"~@SmokeTest","@RegressionTest"}//Ignore only smoke tag
+		       tags={"~@SmokeTest","~@RegressionTest"}
 		
 		)
 
@@ -26,3 +31,5 @@ public class TestRunner
 {
      
 }
+//OR is represented by , tags= {"@SmokeTest,@RegressionTest"} execute all test tagged as @@SmokeTest or @RegressionTest
+//And - executes all the test cases which is tagged as smoke & regression
