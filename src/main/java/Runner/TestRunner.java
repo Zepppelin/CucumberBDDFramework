@@ -32,5 +32,5 @@ public class TestRunner
 {
      
 }
-//OR is represented by , tags= {"@SmokeTest,@RegressionTest"} execute all test tagged as @@SmokeTest or @RegressionTest
+//OR is represented by , tags= {"@SmokeTest,@RegressionTest"} execute all test tagged as @@SmokeTest or @RegressionTest //ajeet
 //And - executes all the test cases which is tagged as smoke & regression
