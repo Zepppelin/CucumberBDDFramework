@@ -7,11 +7,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 113900,
+  "duration": 124300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 67400,
+  "duration": 67900,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,37 +47,37 @@ formatter.match({
   "location": "taggedHooksStepDefinations.this_the_first_step()"
 });
 formatter.result({
-  "duration": 71502300,
+  "duration": 58774300,
   "status": "passed"
 });
 formatter.match({
   "location": "taggedHooksStepDefinations.this_is_the_second_step()"
 });
 formatter.result({
-  "duration": 41000,
+  "duration": 33600,
   "status": "passed"
 });
 formatter.match({
   "location": "taggedHooksStepDefinations.this_is_the_thirt_step()"
 });
 formatter.result({
-  "duration": 34400,
+  "duration": 28100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 34400,
+  "duration": 28700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 32700,
+  "duration": 27100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 89300,
+  "duration": 49000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 49500,
+  "duration": 29200,
   "status": "passed"
 });
 formatter.scenario({
@@ -113,37 +113,37 @@ formatter.match({
   "location": "taggedHooksStepDefinations.this_the_first_step()"
 });
 formatter.result({
-  "duration": 47000,
+  "duration": 28700,
   "status": "passed"
 });
 formatter.match({
   "location": "taggedHooksStepDefinations.this_is_the_second_step()"
 });
 formatter.result({
-  "duration": 51100,
+  "duration": 28100,
   "status": "passed"
 });
 formatter.match({
   "location": "taggedHooksStepDefinations.this_is_the_thirt_step()"
 });
 formatter.result({
-  "duration": 41100,
+  "duration": 31100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 30700,
+  "duration": 41500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 35300,
+  "duration": 29500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 47000,
+  "duration": 80800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 56800,
+  "duration": 48700,
   "status": "passed"
 });
 formatter.scenario({
@@ -179,29 +179,29 @@ formatter.match({
   "location": "taggedHooksStepDefinations.this_the_first_step()"
 });
 formatter.result({
-  "duration": 35800,
+  "duration": 29500,
   "status": "passed"
 });
 formatter.match({
   "location": "taggedHooksStepDefinations.this_is_the_second_step()"
 });
 formatter.result({
-  "duration": 28700,
+  "duration": 25100,
   "status": "passed"
 });
 formatter.match({
   "location": "taggedHooksStepDefinations.this_is_the_thirt_step()"
 });
 formatter.result({
-  "duration": 31900,
+  "duration": 29100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 27200,
+  "duration": 22600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 44200,
+  "duration": 28200,
   "status": "passed"
 });
 });
